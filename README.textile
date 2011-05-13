@@ -1,0 +1,16 @@
+This is a ruby script generating google suggestions
+
+h1. Requirements
+* rubygems
+* open-uri
+* hpricot
+
+h1. Example
+
+bq. 
+>> require "google_suggest.rb"
+>> GoogleSuggest.search("googleio", :en, 2)
+=> ["googleio", "google io last call", "googleio twitter", "google io 2010", "google images", "google io contest", "google io tickets", "google io conference", "google io extended", "google io 2011 gift", "google io last call winners", "google io twitter", "google io 2010 gift", "google io 2010 giveaway", "google io 2010 photos", "google io 2010 sold out", "google io 2010 rest", "google io 2010 sessions", "google io 2010 free phone", "google io 2010 keynote", "google io 2010 swag", "google images game", "google images api", "google images virus", "google images slideshow", "google images swirl", "google images not working", "google images spring", "google images copyright", "google images for kids", "google io contest winners", "google io tickets 2011", "google io tickets ebay", "google io tickets craigslist", "google io tickets on ebay", "google io tickets sold out", "google io tickets for sale", "google io tickets 2010", "google io tickets pricing", "google io tickets costs", "google io conference 2011", "google io conference 2011 registration", "google io conference 2010", "google io conference registration", "google io conference 2009", "google io conference san francisco", "google io conference videos", "google io conference keynote", "google io conference review", "google io extended london"]
+
+h1. Why?
+I made this script when Google auto-suggestions was released. My SEO's friend needed a way to generate google's au-suggestions easily.
